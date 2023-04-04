@@ -14,8 +14,9 @@ from public_apis import get_traffic_images
 from stained_glass import stain_glass
 import os
 import shutil
+import config
 
-api = ""
+api = config.API_KEY
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
